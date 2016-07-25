@@ -25,7 +25,7 @@ Throughput:	13315.579227696406
 KB/sec:		2314.6221704394143
 Avg. Bytes:	178.0
 
-[Go.array]
+[Go.slice]
 Samples:	1280000
 Average:	7
 Min:		0
