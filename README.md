@@ -48,10 +48,10 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
   
 <b>Case 03: Output HTML by Template</b> 
 
-|               | .NET Core | Go       |
-| ------------- | ---------:| --------:|
-|               |  Built-in | Built-in |
-| Throughput    |      1449 |      258 |
-| KB/sec        |     77722 |    13836 |
+|               | .NET Core          | Go                        |
+| ------------- | ------------------:| -------------------------:|
+|               |  Built-in<br>Razor | Built-in<br>html/template |
+| Throughput    |               1449 |                       258 |
+| KB/sec        |              77722 |                     13836 |
 
   
