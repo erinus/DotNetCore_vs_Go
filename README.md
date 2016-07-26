@@ -43,11 +43,10 @@ Go
 | Throughput    |            16901 |           6252 |         21203 |
 | KB/sec        |             2360 |            873 |          2961 |
 
-| Tables        | Are           | Cool  |
+| @        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Throughput    | right-aligned | $1600 |
+| KB/sec        | centered      |   $12 |
 
   
 <b>Case 03: Output HTML by Built-in Template</b>  
