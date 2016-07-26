@@ -31,16 +31,16 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 
 
 <b>Apache JMeter Configuration</b>  
->- <b>Thread Group</b>  
->&nbsp;&nbsp;Number of Threads (users): 128  
->&nbsp;&nbsp;Ramp-Up Period (in seconds): 0  
->&nbsp;&nbsp;Loop Count: 100  
+>&nbsp;- <b>Thread Group</b>  
+>&nbsp;&nbsp;&nbsp;Number of Threads (users): 128  
+>&nbsp;&nbsp;&nbsp;Ramp-Up Period (in seconds): 0  
+>&nbsp;&nbsp;&nbsp;Loop Count: 100  
 >  
->&nbsp;&nbsp;&nbsp;&nbsp;- <b>Loop Controller</b>  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lopp Count: 100  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <b>Loop Controller</b>  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lopp Count: 100  
 >  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <b>HTTP Request</b>  
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implementation:	HttpClient4
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <b>HTTP Request</b>  
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implementation:	HttpClient4
   
   
   
