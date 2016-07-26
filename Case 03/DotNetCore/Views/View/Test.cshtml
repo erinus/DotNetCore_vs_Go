@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <p>Locales</p>
+    <p>
+        <table>
+        @foreach (var Locale in ViewBag.Locales)
+        {
+            <tr>
+                <td>@Locale[0]</td>
+                <td>@Locale[1]</td>
+                <td>@Locale[2]</td>
+                <td>@Locale[3]</td>
+                <td>@Locale[4]</td>
+                <td>@Locale[5]</td>
+                <td>@Locale[6]</td>
+            </tr>
+        }
+        </table>
+    </p>
+</body>
+</html>

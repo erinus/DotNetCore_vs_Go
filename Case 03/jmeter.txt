@@ -1,0 +1,37 @@
+- Thread Group
+  Number of Threads (users):		128
+  Ramp-Up Period (in seconds):		0
+  Loop Count:				100
+
+	- Loop Controller
+	  Lopp Count:			100
+
+		- HTTP Request
+		  Implementation:	HttpClient4
+		  Protocol [http]:	http
+		  Method:		GET
+		  Path:			/view/test
+
+
+
+[.NET Core]
+Samples:	1280000
+Average:	87
+Min:		1
+Max:		2410
+Std. Dev.:	43.929678805351166
+Error %:	0.0
+Throughput:	1444.8599671068598
+KB/sec:		77721.8960626437
+Avg. Bytes:	55083.0
+
+[Go.template]
+Samples:	1280000
+Average:	493
+Min:		7
+Max:		5219
+Std. Dev.:	364.10002042223266
+Error %:	0.0
+Throughput:	258.21475963635294
+KB/sec:		13836.175645748717
+Avg. Bytes:	54870.0
