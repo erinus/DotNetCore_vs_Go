@@ -27,6 +27,12 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 >OS: Ubuntu Desktop 14.04.4 x64  
 >Software: Oracle Java 2 SDK 8  
 >Software: Apache JMeter 3.0  
+
+
+
+<b>Apache JMeter Configuration</b>  
+<div>- Thread Group</div>
+<div style="margin-left: 30px">Number of Threads (users): 128</div>
   
   
   
