@@ -30,12 +30,12 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
   
   
 <b>Case 01: Output Static JSON</b>  
-.NET Core:  
->Throughput: 16300  
->KB/sec: 2833  
-Go  
->Throughput: 21203  
->KB/sec: 2961  
+
+|               | .NET Core | Go    |
+| ------------- | ---------:| -----:|
+| Throughput    |     16300 | 21203 |
+| KB/sec        |      2833 |  2961 |
+
   
 <b>Case 02: Output Static JSON (add 1000 times Random Number into List)</b>  
 
@@ -49,5 +49,7 @@ Go
 
 |               | .NET Core | Go    |
 | ------------- | ---------:| -----:|
-| Throughput    |       445 |   258 |
+| Throughput    |      1449 |   258 |
 | KB/sec        |     77722 | 13836 |
+
+  
