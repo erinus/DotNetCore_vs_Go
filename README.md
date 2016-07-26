@@ -37,8 +37,7 @@ Go
 >Throughput: 21203  
 >KB/sec: 2961  
   
-<b>Case 02: Output Static JSON</b>  
-<b>(add 1000 times Random Number into List)</b>  
+<b>Case 02: Output Static JSON (add 1000 times Random Number into List)</b>  
 .NET Core (List):  
 >Throughput: 16901  
 >KB/sec: 2360  
