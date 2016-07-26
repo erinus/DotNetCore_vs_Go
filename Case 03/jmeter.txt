@@ -35,3 +35,14 @@ Error %:	0.0
 Throughput:	258.21475963635294
 KB/sec:		13836.175645748717
 Avg. Bytes:	54870.0
+
+[Go.quicktemplate]
+Samples:	1280000
+Average:	112
+Min:		1
+Max:		2448
+Std. Dev.:	55.03406515171081
+Error %:	0.0
+Throughput:	1127.1971538271866
+KB/sec:		60401.91623516151
+Avg. Bytes:	54872.0
