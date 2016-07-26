@@ -31,7 +31,8 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 
 
 <b>Apache JMeter Configuration</b>  
->Plan
+><b>Plan</b>  
+>  
 >&nbsp;- <b>Thread Group</b>  
 >&nbsp;&nbsp;&nbsp;Number of Threads (users): 128  
 >&nbsp;&nbsp;&nbsp;Ramp-Up Period (in seconds): 0  
