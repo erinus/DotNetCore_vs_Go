@@ -38,7 +38,7 @@ Go
 >KB/sec: 2961  
   
 <b>Case 02: Output Static JSON (add 1000 times Random Number into List)</b>  
-|               | .NET Core (List) | Go (use slice) | Go (use list) |
+| @             | .NET Core (List) | Go (use slice) | Go (use list) |
 | ------------- | ----------------:| --------------:| -------------:|
 | Throughput    |            16901 |           6252 |         21203 |
 | KB/sec        |             2360 |            873 |          2961 |
