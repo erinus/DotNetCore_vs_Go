@@ -26,3 +26,33 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 >Network Adapter: NAT  
 >OS: Ubuntu Desktop 14.04.4 x64  
 >Software: Apache JMeter 3.0  
+  
+  
+  
+<b>Case 01: Output Static JSON</b>  
+.NET Core:  
+>Throughput: 16300  
+>KB/sec: 2833  
+Go  
+>Throughput: 21203  
+>KB/sec: 2961  
+  
+<b>Case 02: Output Static JSON</b>  
+<b>(add 1000 times Random Number into List)</b>  
+.NET Core (List):  
+>Throughput: 16901  
+>KB/sec: 2360  
+Go (use slice)  
+>Throughput: 6252  
+>KB/sec: 873  
+Go (use list)
+>Throughput: 21203
+>KB/sec: 2961.00583090379  
+  
+<b>Case 03: Output HTML by Built-in Template</b>  
+.NET Core:  
+>Throughput: 1445  
+>KB/sec: 77722  
+Go  
+>Throughput: 258  
+>KB/sec: 13836  
