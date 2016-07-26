@@ -31,12 +31,14 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 
 
 <b>Apache JMeter Configuration</b>  
-*   Red  
+*   Thread Group  
 Number of Threads (users): 128  
 Ramp-Up Period (in seconds): 0  
 Loop Count: 100  
   *   Loop Controller  
+Lopp Count: 100
     *   HTTP Request  
+Implementation:	HttpClient4
   
   
   
