@@ -39,17 +39,19 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
   
 <b>Case 02: Output Static JSON (add 1000 times Random Number into List)</b>  
 
-| @             | .NET Core (List) | Go (slice) | Go (list) |
-| ------------- | ----------------:| ----------:| ---------:|
-| Throughput    |            16901 |       6252 |     21203 |
-| KB/sec        |             2360 |        873 |      2961 |
+|               | .NET Core | Go    | Go    |
+|               | List      | slice | list  |
+| ------------- | ---------:| -----:| -----:|
+| Throughput    |     16901 |  6252 | 21203 |
+| KB/sec        |      2360 |   873 |  2961 |
 
   
-<b>Case 03: Output HTML by Built-in Template</b> 
+<b>Case 03: Output HTML by Template</b> 
 
-|               | .NET Core | Go    |
-| ------------- | ---------:| -----:|
-| Throughput    |      1449 |   258 |
-| KB/sec        |     77722 | 13836 |
+|               | .NET Core | Go       |
+|               | Built-in  | Built-in |
+| ------------- | ---------:| --------:|
+| Throughput    |      1449 |      258 |
+| KB/sec        |     77722 |    13836 |
 
   
