@@ -44,7 +44,7 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 | Description   | Built-in<br>List | gin<br>slice |  gin<br>list |
 | ------------- | ----------------:| ------------:| ------------:|
 | Throughput    |            16901 |         6252 |        21203 |
-| KB/sec        |             2360 |          873 |         2961 |
+| KB/sec        |             2360 |          873 |         2961 ||
 
   
 <b>Case 03: Output HTML by Template</b> 
