@@ -25,6 +25,7 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 >Hard Disk (SCSCI): 64GB  
 >Network Adapter: NAT  
 >OS: Ubuntu Desktop 14.04.4 x64  
+>Software: Oracle Java 2 SDK 8  
 >Software: Apache JMeter 3.0  
   
   
