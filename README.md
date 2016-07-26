@@ -39,20 +39,13 @@ Go
   
 <b>Case 02: Output Static JSON (add 1000 times Random Number into List)</b>  
 |               | .NET Core (List) | Go (use slice) | Go (use list) |
-| -------------:| ----------------:| --------------:| -------------:|
-| Throughput    |            16901 |           6252 |         21203 |
-| KB/sec        |             2360 |            873 |          2961 |
-
-|               | .NET Core (List) | Go (use slice) | Go (use list) |
 | ------------- | ----------------:| --------------:| -------------:|
 | Throughput    |            16901 |           6252 |         21203 |
 | KB/sec        |             2360 |            873 |          2961 |
 
   
 <b>Case 03: Output HTML by Built-in Template</b>  
-.NET Core:  
->Throughput: 1445  
->KB/sec: 77722  
-Go  
->Throughput: 258  
->KB/sec: 13836  
+|               | .NET Core | Go    |
+| ------------- | ---------:| -----:|
+| Throughput    |       445 |   258 |
+| KB/sec        |     77722 | 13836 |
