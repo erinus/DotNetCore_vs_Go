@@ -39,7 +39,7 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 | KB/sec        |                              2833 |          2961 |
 
   
-<b>Case 02: Output Static JSON (add 1000 times Random Number into List)</b>  
+<b>Case 02: Output Static JSON and Add 1000 times Random Number into List</b>  
 
 |               | .NET Core                      | Go    | Go             |
 | ------------- | ------------------------------:| -----:| --------------:|
