@@ -43,10 +43,10 @@ Go
 | Throughput    |            16901 |           6252 |         21203 |
 | KB/sec        |             2360 |            873 |          2961 |
 
-|               | .NET Core (List) | Go (use slice) |
-| ------------- | ----------------:| --------------:|
-| Throughput    |            16901 |           6252 |
-| KB/sec        |             2360 |            873 |
+|               | .NET Core (List) | Go (use slice) | Go (use list) |
+| ------------- | ----------------:| --------------:| -------------:|
+| Throughput    |            16901 |           6252 |         21203 |
+| KB/sec        |             2360 |            873 |          2961 |
 
   
 <b>Case 03: Output HTML by Built-in Template</b>  
