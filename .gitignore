@@ -1,0 +1,9 @@
+# dotnet artifacts
+[oO]bj
+[bB]in
+
+# dotnet locks
+project.lock.json
+
+# executables
+*.exe
