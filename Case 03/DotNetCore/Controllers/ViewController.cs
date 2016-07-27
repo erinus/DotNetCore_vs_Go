@@ -7,7 +7,7 @@ namespace TestServer.Controllers
     [Route("view")]
     public class ViewController : Controller
     {
-        public List<string[]> locales = new List<string[]> ()
+        private static readonly List<string[]> Locales = new List<string[]> ()
         {
             new string[] { "Afghanistan", "AF", "AFG", "Pashto", "ps", "pus", "ps-AF" },
             new string[] { "Afghanistan", "AF", "AFG", "Dari", "prs", "prs", "prs-AF" },
@@ -226,7 +226,7 @@ namespace TestServer.Controllers
         [Route("test")]
         public IActionResult Test()
         {
-            ViewBag.Locales = this.Locales;
+            ViewBag.Locales = Locales;
 
             return View();
         }
