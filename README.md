@@ -55,7 +55,7 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 | Throughput    |                             16324 |           18094 |         21203 |
 | KB/sec        |                              2833 |            2845 |          2961 |
 
-# The default JSON Serializer of ASP.NET Core MVC is Newtonsoft.Json.  
+The default JSON Serializer of ASP.NET Core MVC is Newtonsoft.Json.  
   
 <b>Case 02: Output Static JSON and Add 1000 times Random Number into List</b>  
 
@@ -78,5 +78,5 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 | KB/sec        |              77722 |         13836 |                 60402 |
 
   
-Thanks for all advice.  
+<b>Thanks for all advice.<b>  
 >[@mcliment](https://github.com/mcliment)  
