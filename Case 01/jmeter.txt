@@ -14,7 +14,7 @@
 
 
 
-[.NET Core]
+[.NET Core: System.Runtime.Serialization.Json]
 Samples:	1280000
 Average:	7
 Min:		0
@@ -23,6 +23,17 @@ Std. Dev.:	10.822294245416495
 Error %:	0.0
 Throughput:	16324.24022139751
 KB/sec:		2566.6041754345692
+Avg. Bytes:	161.0
+
+[.NET Core: Newtonsoft.Json]
+Samples:	1280000
+Average:	6
+Min:		0
+Max:		109
+Std. Dev.:	3.7836992726738625
+Error %:	0.0
+Throughput:	18093.6629772557
+KB/sec:		2844.8044329474296
 Avg. Bytes:	161.0
 
 [Go]
