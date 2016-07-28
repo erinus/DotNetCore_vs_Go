@@ -20,7 +20,7 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 >Software: Google Go 1.6.3   
   
 <b>Guest Environment: Apach JMeter</b>  
->Processors: 4 (1 processors, 4 cores)  
+>Processors: 16 (1 processors, 16 cores)  
 >Memory: 4GB  
 >Hard Disk (SCSI): 64GB  
 >Network Adapter: NAT  
