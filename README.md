@@ -79,4 +79,5 @@ The default JSON Serializer of ASP.NET Core MVC is Newtonsoft.Json.
 
   
 <b>Thanks for all advice.<b>  
->[@mcliment](https://github.com/mcliment)  
+>[WangShen Lu](https://www.facebook.com/tkalu)  
+>[mcliment](https://github.com/mcliment)  
