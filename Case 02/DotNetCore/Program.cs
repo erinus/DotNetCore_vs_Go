@@ -16,6 +16,7 @@ namespace TestServer
             var host = new WebHostBuilder()
                 .UseKestrel(new Action<KestrelServerOptions>(delegate (KestrelServerOptions options)
                 {
+                    options.AddServerHeader = false;
                     options.NoDelay = true;
                 }))
                 .UseUrls("http://*:8000")
