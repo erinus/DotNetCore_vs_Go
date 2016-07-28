@@ -18,12 +18,12 @@
 Samples:	1280000
 Average:	7
 Min:		0
-Max:		104
-Std. Dev.:	4.078595326442059
+Max:		416
+Std. Dev.:	10.822294245416495
 Error %:	0.0
-Throughput:	16299.918500407497
-KB/sec:		2833.384270578647
-Avg. Bytes:	178.0
+Throughput:	16324.24022139751
+KB/sec:		2566.6041754345692
+Avg. Bytes:	161.0
 
 [Go]
 Samples:	1280000
