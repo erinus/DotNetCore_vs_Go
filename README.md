@@ -79,7 +79,5 @@ The default JSON Serializer of ASP.NET Core MVC is Newtonsoft.Json.
 
   
 # Thanks for all advice.
->[WangShen Lu](https://www.facebook.com/tkalu)  
-The difference between Go array and slice
->[mcliment](https://github.com/mcliment)  
-To make comparison fair by adjusting code and settings for .NET Core Project
+>[WangShen Lu](https://www.facebook.com/tkalu) The difference between Go array and slice  
+>[mcliment](https://github.com/mcliment) To make comparison fair by adjusting code and settings for .NET Core Project  
