@@ -1,4 +1,4 @@
-# .Net Core vs. Go
+# .Net Core vs. Go (modified 2016.07.29)
   
 Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x64  
   
