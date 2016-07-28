@@ -48,13 +48,14 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
   
 <b>Case 01: Output Static JSON</b>  
 
-|               | .NET Core                         | Go            |
-| ------------- | ---------------------------------:| -------------:|
-| Web Framework |                      ASP.NET Core |           gin |
-| JSON          | System.Runtime.Serialization.Json | encoding/json |
-| Throughput    |                             16324 |         21203 |
-| KB/sec        |                              2833 |          2961 |
+|               | .NET Core                         | .NET Core       | Go            |
+| ------------- | ---------------------------------:| ---------------:| -------------:|
+| Web Framework |                      ASP.NET Core |    ASP.NET Core |           gin |
+| JSON          | System.Runtime.Serialization.Json | Newtonsoft.Json | encoding/json |
+| Throughput    |                             16324 |           18094 |         21203 |
+| KB/sec        |                              2833 |            2845 |          2961 |
 
+# The default JSON Serializer of ASP.NET Core MVC is Newtonsoft.Json.  
   
 <b>Case 02: Output Static JSON and Add 1000 times Random Number into List</b>  
 
@@ -77,3 +78,7 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
 | KB/sec        |              77722 |         13836 |                 60402 |
 
   
+  
+  
+Thanks for all advice.  
+<a target="_blank" href="https://github.com/mcliment">@mcliment</a>  
