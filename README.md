@@ -46,7 +46,9 @@ Virtual Machines runs by VMware Workstation 12.1.1 build-3770994 on Windows 10 x
   
   
   
-## Web
+## Common
+
+## Web & Database
 <b>Case 01: Output Static JSON</b>  
 
 |               | .NET Core                         | .NET Core       | Go            |
